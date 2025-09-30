@@ -1,8 +1,8 @@
 """Interactive demo CLI (not graded)."""
 from calculator import add, subtract, multiply, divide
 
-def main()
-    """Run the interactive command-line calculator.""":
+def main():
+    """Run the interactive command-line calculator."""
     print("TinyTools Calculator (add/subtract/multiply/divide)")
     op = input("Operation: ").strip().lower()
     a = float(input("First number: "))
