@@ -12,3 +12,8 @@ def subtract(a: Number, b: Number) -> Number:
 def multiply(a: Number, b: Number) -> Number:
     """Return a * b."""
     return a * b
+def divide(a: Number, b: Number) -> Number:
+    """Return a / b. Raises ZeroDivisionError if b == 0."""
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero.")
+    return a / b
