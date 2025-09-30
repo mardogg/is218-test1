@@ -9,3 +9,6 @@ def add(a: Number, b: Number) -> Number:
 def subtract(a: Number, b: Number) -> Number:
     """Return a - b."""
     return a - b
+def multiply(a: Number, b: Number) -> Number:
+    """Return a * b."""
+    return a * b
