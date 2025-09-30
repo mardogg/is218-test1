@@ -1,0 +1,7 @@
+[run]
+source = src
+omit =
+    src/cli.py
+
+[report]
+show_missing = True
